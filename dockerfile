@@ -28,4 +28,4 @@ ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 #RUN mcs App.cs Commands.cs
 
 #CMD ["bin/Debug/netcoreapp3.1/ubuntu.22.04-x64/App -start node 10.0.0.33 245"]
-ENTRYPOINT ["bin/Debug/netcoreapp3.1/ubuntu.22.04-x64/App", "start", "node", "10.0.0.33", "245"]
+ENTRYPOINT ["bin/Debug/netcoreapp3.1/ubuntu.22.04-x64/App", "start", "master", "245", "172.17.0.2"]
