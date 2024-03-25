@@ -33,10 +33,6 @@ namespace App
 
             Program.SessionType = SessionType.Node;
             Console.WriteLine("Binded to " + Port + " ready to receive...");
-            // while (true)
-            // {
-
-            // }
         }
     }
 }

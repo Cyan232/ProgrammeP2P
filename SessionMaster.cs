@@ -27,10 +27,6 @@ namespace App
 
             Program.SessionType = SessionType.Master;
             Console.WriteLine("Binded to " + Port + " ready to receive...");
-            // while (true)
-            // {
-
-            // }
         }
     }
 }
